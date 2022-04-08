@@ -3,7 +3,6 @@ def search(nums, target):
     while(nums[i] != target):
         i += 1
         if (i == len(nums)):
-            print(-1)
             return -1
     return(i)
 

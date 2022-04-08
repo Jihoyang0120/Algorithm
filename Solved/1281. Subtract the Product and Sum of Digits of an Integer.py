@@ -5,6 +5,3 @@ def subtractProductAndSum(n):
         Msum *= int(i)
         Asum += int(i)
     return Msum - Asum
-
-
-subtractProductAndSum(4421)
